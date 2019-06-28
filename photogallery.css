@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #e6ebee;
+  font-family: "Antic Slab", serif;
+  color: #003751;
+  justify-content: center;
+}
+
+img {
+  width: 30%;
+  height: 200px;
+  margin: 15px;
+  object-fit: cover;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@media all and (max-width: 1020px) {
+  .imageContainer {
+    width: 95%;
+  }
+
+  img {
+    width: 40%;
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .imageContainer {
+    width: 95%;
+  }
+
+  img {
+    width: 80%;
+    height: 200px;
+  }
+}
